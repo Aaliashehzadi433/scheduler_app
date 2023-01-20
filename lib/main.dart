@@ -19,14 +19,14 @@ class MyApp extends StatefulWidget {
   State<MyApp> createState() => _MyAppState();
 }
 
-void ftn(){}
+void ftn() {}
 
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Firebase Project',
+      title: 'Fire Base Project',
       theme: ThemeData(primarySwatch: MyApp.primaryColor),
       initialRoute: '/',
       onGenerateRoute: RouteGenerator.generateRoute,
